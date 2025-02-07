@@ -1,0 +1,118 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container centralizado */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+}
+header h1 {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seções */
+section {
+  padding: 40px 0;
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+}
+section p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Estilo da lista de serviços */
+section#servicos ul {
+  list-style: disc inside;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Galeria de Projetos */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Formulário de Contato */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+form button {
+  padding: 10px;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+}
+form button:hover {
+  background-color: #002244;
+}
+
+/* Rodapé */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
